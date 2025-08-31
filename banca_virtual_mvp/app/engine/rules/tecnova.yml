@@ -1,0 +1,21 @@
+# Regras simplificadas inspiradas no TecNova (exemplo didático)
+id: tecnova_demo
+name: TecNova (exemplo)
+version: 0.1
+elimination_threshold: 0.7
+criteria:
+  - id: inovacao
+    label: Inovação e relevância
+    weight: 0.20
+  - id: mercado
+    label: Mercado e competitividade
+    weight: 0.20
+  - id: equipe
+    label: Equipe e parcerias
+    weight: 0.20
+  - id: execucao
+    label: Plano de execução (cronograma/risco)
+    weight: 0.20
+  - id: impacto
+    label: Impacto/Sustentabilidade/ESG
+    weight: 0.20

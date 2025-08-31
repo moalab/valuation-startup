@@ -1,0 +1,21 @@
+# Regras simplificadas inspiradas no Centelha (exemplo didático)
+id: centelha_demo
+name: Centelha (exemplo)
+version: 0.1
+elimination_threshold: 0.0  # Centelha usa fórmulas/fases; aqui só ilustramos critério somado
+criteria:
+  - id: inovacao
+    label: Grau de inovação
+    weight: 0.25
+  - id: mercado
+    label: Potencial de mercado
+    weight: 0.25
+  - id: equipe
+    label: Equipe/Capacidades
+    weight: 0.20
+  - id: tracao
+    label: Tração/Validação
+    weight: 0.15
+  - id: orcamento
+    label: Consistência técnico-orçamentária
+    weight: 0.15

@@ -1,0 +1,7 @@
+streamlit==1.36.0
+pandas==2.2.2
+numpy==1.26.4
+pydantic==2.8.2
+PyYAML==6.0.2
+PyMuPDF==1.24.9
+faster-whisper==1.0.3

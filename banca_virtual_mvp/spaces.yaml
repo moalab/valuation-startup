@@ -1,0 +1,6 @@
+# Hugging Face Spaces configuration for Streamlit + GPU (optional)
+title: Banca Virtual MVP
+sdk: streamlit
+python_version: 3.10
+app_file: app/ui/app.py
+suggested_hardware: t4-small
